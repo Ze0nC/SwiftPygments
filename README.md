@@ -5,8 +5,10 @@
 ## Requirements
 
 - Python
-- Pygments
+- Pygments: [https://pygments.org](https://pygments.org)
 - Swift 5
+
+SwiftPygments uses `PythonKit` to interact with Pygments.
 
 Pygments can be installed via
 ``` zsh
@@ -18,7 +20,7 @@ pip3 install pygments
 let package = Package(
     ...
     dependencies: [
-    .package(url: "https://xxx.git", from: "0.1.0")
+    .package(url: "https://github.com/Ze0nC/SwiftPygments", .branch("master"))
     ],
     ...
 )
